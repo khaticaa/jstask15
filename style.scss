@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style: none;
+  }
+  .container {
+    max-width: 1200px;
+    padding: 0px 32px;
+    margin: auto;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+@import "nav.scss";
+@import "banner.scss";
+@import "s1.scss";
+@import "s2.scss";
+@import "s3.scss";
+@import "s4.scss";
+@import "s5.scss";
+@import "s6.scss";
+@import "footer.scss";
