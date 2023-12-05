@@ -17,6 +17,7 @@
       width: 40%;
 
       .btext {
+       
         h2 {
           // width: 70%;
           font-size: 35px;
@@ -62,6 +63,9 @@
       .bleft {
         width: 100%;
         text-align: start;
+        .btext{
+          margin-top: 200px;
+        }
       }
       .bright {
         width: 100%;

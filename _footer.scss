@@ -126,8 +126,85 @@ footer{
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
+            gap: 30px;
             .ftl{
                 width: 100%;
+                padding-top: 30px;
+            }
+            .ftc{
+                width: 100%;
+                padding-top: 30px;
+                .input{
+                    display: flex;
+                    flex-direction: column;
+                     input{
+                        width: 100%;
+                     }
+                }
+            }
+           } 
+           .footerbottom{
+            flex-direction: column;
+           }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    footer{
+        .footer-o{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+           .footertop{
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            .ftl{
+                width: 100%;
+            }
+            .ftc{
+                width: 100%;
+                .input{
+                    display: flex;
+                    flex-direction: column;
+                     input{
+                        width: 100%;
+                     }
+                }
+            }
+            .ftr{
+                .grid{
+                    gap: 10px;
+                }
+            }
+           } 
+           .footerbottom{
+            flex-direction: column;
+           }
+        }
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    footer{
+        .footer-o{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+           .footertop{
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 30px;
+            .ftl{
+                width: 100%;
+                
             }
             .ftc{
                 width: 100%;
