@@ -1,0 +1,38 @@
+{
+
+    "robots":[
+
+        {
+            "id":1,
+        "image":"./img/p1.png.webp",
+        "name":"The Upper eye",
+        "description":"Who are in extremely love with eco friendly system"
+            } ,
+
+            
+        {
+            "id":2,
+        "image":"./img/p1.png.webp",
+        "name":"The Upper eye",
+        "description":"Who are in extremely love with eco friendly system"
+            } ,
+
+            
+        {
+            "id":3,
+        "image":"./img/p1.png.webp",
+        "name":"The Upper eye",
+        "description":"Who are in extremely love with eco friendly system"
+            } ,
+            {
+                "id":3,
+            "image":"./img/p1.png.webp",
+            "name":"The Upper eye",
+            "description":"Who are in extremely love with eco friendly system"
+                } 
+
+
+         
+
+    ]
+}
