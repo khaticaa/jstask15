@@ -57,7 +57,15 @@ footer{
                         cursor: pointer;
                         color: white;
                         font-size: 13px;
-                    
+
+                        &:hover {
+                            background-image: none;
+                            background-color:transparent;
+                            transition: all 0.5s ease;
+                            border: 1px solid lightcyan ;
+                            color: #828fff;
+                        }
+                
                     }
                 
                 }

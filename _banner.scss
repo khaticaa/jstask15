@@ -5,6 +5,7 @@
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
+  color: #fff;
 
   .banner-o {
     display: flex;
@@ -14,14 +15,15 @@
     min-height: 100vh;
 
     .bleft {
-      width: 40%;
+      width: 45%;
 
       .btext {
        
         h2 {
-          // width: 70%;
-          font-size: 35px;
-          color: rgb(31, 24, 24);
+          width: 70%;
+          // font-size: 40px;
+          font-size: 3rem;
+          font-weight: 600;
           margin-top: 20px;
         }
         h5 {
@@ -31,15 +33,23 @@
         button {
           padding: 10px 50px;
           border: none;
-          background-color: gray;
+          background-color:white;
           font-size: 16px;
-          color: #fff;
+          color:black;
+          font-weight: bold;
           margin-top: 20px;
+
+          &:hover {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            transition: all 0.5s ease;
+        }
         }
       }
     }
     .bright {
-      width: 40%;
+      width: 45%;
       .img {
         // width: 40%;
         img {

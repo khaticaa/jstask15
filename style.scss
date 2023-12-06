@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
   }
   
   li {
@@ -15,7 +17,18 @@
 
   a{
     text-decoration: none;
-    color: black
+    
+  }
+
+  body{
+    position: relative;
+  }
+  .bi-arrow-up-circle-fill{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    font-size: 40px;
+    color: white;
   }
 
 @import "nav.scss";

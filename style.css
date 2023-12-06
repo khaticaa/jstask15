@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 li {
@@ -16,7 +18,18 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+}
+
+body {
+  position: relative;
+}
+
+.bi-arrow-up-circle-fill {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  font-size: 40px;
+  color: white;
 }
 
 nav {
@@ -24,12 +37,15 @@ nav {
   position: fixed;
   transition: all 0.5s ease;
   color: white;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 nav .nav-o {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 nav .nav-o .nleft img {
   width: 100%;
@@ -44,14 +60,48 @@ nav .nav-o ul {
   gap: 30px;
   font-size: 18px;
 }
+nav .nav-o ul a {
+  color: white;
+}
 nav .nav-o .icon {
   display: none;
   font-size: 28px;
+}
+nav .menu {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  min-height: 100vh;
+}
+nav .menu li {
+  border: 1px black solid;
+  padding: 10px 10px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+}
+nav .menu li a {
+  color: white;
+}
+nav .show-menu {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
   nav {
     width: 100%;
+  }
+  nav .nav-o {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  nav .nav-o h1 {
+    font-size: 30px;
   }
   nav .nav-o ul {
     display: none;
@@ -68,6 +118,7 @@ nav .nav-o .icon {
   -o-object-fit: cover;
      object-fit: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
 .banner .banner-o {
   display: flex;
@@ -77,11 +128,12 @@ nav .nav-o .icon {
   min-height: 100vh;
 }
 .banner .banner-o .bleft {
-  width: 40%;
+  width: 45%;
 }
 .banner .banner-o .bleft .btext h2 {
-  font-size: 35px;
-  color: rgb(31, 24, 24);
+  width: 70%;
+  font-size: 3rem;
+  font-weight: 600;
   margin-top: 20px;
 }
 .banner .banner-o .bleft .btext h5 {
@@ -91,13 +143,20 @@ nav .nav-o .icon {
 .banner .banner-o .bleft .btext button {
   padding: 10px 50px;
   border: none;
-  background-color: gray;
+  background-color: white;
   font-size: 16px;
-  color: #fff;
+  color: black;
+  font-weight: bold;
   margin-top: 20px;
 }
+.banner .banner-o .bleft .btext button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.5s ease;
+}
 .banner .banner-o .bright {
-  width: 40%;
+  width: 45%;
 }
 .banner .banner-o .bright .img img {
   width: 100%;
@@ -127,6 +186,10 @@ nav .nav-o .icon {
 .section1 {
   width: 100%;
   padding: 70px 0px;
+}
+.section1 a {
+  text-decoration: none;
+  color: black;
 }
 .section1 .sec1-o {
   display: flex;
@@ -248,6 +311,13 @@ nav .nav-o .icon {
   cursor: pointer;
   color: white;
 }
+.section2 .s2rig button:hover {
+  background-image: none;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  border: 1px solid lightcyan;
+  color: #828fff;
+}
 
 @media screen and (max-width: 768px) {
   .section2 {
@@ -305,6 +375,13 @@ nav .nav-o .icon {
   border: none;
   cursor: pointer;
   color: white;
+}
+.section3 .s3-o .s3left button:hover {
+  background-image: none;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  border: 1px solid lightcyan;
+  color: #828fff;
 }
 .section3 .s3-o .s3rig {
   background-image: url("img/s3rig.jpg.webp");
@@ -486,6 +563,13 @@ nav .nav-o .icon {
   cursor: pointer;
   color: white;
 }
+.section6 .s6-o .s6-bottom .s6-bot button:hover {
+  background-image: none;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  border: 1px solid lightcyan;
+  color: #828fff;
+}
 .section6 .s6-o .s6-bottom .s6-bot p {
   color: gray;
 }
@@ -567,6 +651,13 @@ footer .footer-o .footertop .ftc .input button {
   cursor: pointer;
   color: white;
   font-size: 13px;
+}
+footer .footer-o .footertop .ftc .input button:hover {
+  background-image: none;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  border: 1px solid lightcyan;
+  color: #828fff;
 }
 footer .footer-o .footertop .ftr h3 {
   text-align: start;

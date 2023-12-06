@@ -42,6 +42,37 @@ function deleteRobot(id){
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    let nav = document.querySelector("nav");
+    let menuButton = document.getElementById("click");
+    let menu = document.querySelector(".menu");
+  
+    menuButton.addEventListener("click", function () {
+      menu.classList.toggle("show-menu");
+    });
+  
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 1000) {
+        menu.classList.remove("show-menu");
+      }
+    });
+  });
+
+
+
+let clickTop= document.querySelector("#clickTop");
+
+clickTop.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+
+
+
+
 // const name = document.querySelector("#name")
 // const category = document.querySelector("#category")
 // const image = document.querySelector("#image")
