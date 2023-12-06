@@ -16,7 +16,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 nav {
@@ -179,15 +179,16 @@ nav .nav-o .icon {
   color: gray;
 }
 .section1 .sec1-o .s1bottom .card button {
+  color: black;
   padding: 15px 50px;
   border: none;
-  background-color: white;
+  background-color: #f9f9ff;
   font-size: 16px;
   cursor: pointer;
 }
-.section1 .sec1-o .s1bottom .card:hover button {
+.section1 .sec1-o .s1bottom .card button:hover {
   background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
-  color: #fff;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {

@@ -10,7 +10,9 @@ fetch(`http://localhost:3000/robots/${id}`)
     console.log(data);
 
     box.innerHTML +=`
-     <img src="${data.image}"> 
+    <img src="${data.image}"> 
+     <h3>${data.name}</h3>
+     <p>${data.description}</p>
      `
  
 
