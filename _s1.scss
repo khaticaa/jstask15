@@ -102,3 +102,20 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .section1 {
+    .sec1-o {
+      padding: 0PX 0PX;
+      .s1bottom {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0PX 0PX;
+        .card{
+        width: 100%;
+      }
+    }
+  }
+}
+
+}

@@ -168,6 +168,23 @@ nav .show-menu {
 @media screen and (max-width: 768px) {
   .banner .banner-o {
     display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner .banner-o .bleft {
+    width: 100%;
+    text-align: start;
+  }
+  .banner .banner-o .bleft .btext h2 {
+    font-size: 40px;
+  }
+  .banner .banner-o .bright {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .banner .banner-o {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -177,7 +194,10 @@ nav .show-menu {
     text-align: start;
   }
   .banner .banner-o .bleft .btext {
-    margin-top: 200px;
+    margin-top: 100px;
+  }
+  .banner .banner-o .bleft .btext h2 {
+    font-size: 25px;
   }
   .banner .banner-o .bright {
     width: 100%;
@@ -266,6 +286,19 @@ nav .show-menu {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media screen and (max-width: 320px) {
+  .section1 .sec1-o {
+    padding: 0PX 0PX;
+  }
+  .section1 .sec1-o .s1bottom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0PX 0PX;
+  }
+  .section1 .sec1-o .s1bottom .card {
+    width: 100%;
+  }
+}
 .section2 {
   width: 100%;
   display: flex;
@@ -336,7 +369,7 @@ nav .show-menu {
        object-fit: cover;
   }
   .section2 .s2rig {
-    width: 90%;
+    width: 88%;
   }
 }
 .section3 {
@@ -414,10 +447,10 @@ nav .show-menu {
     justify-content: center;
   }
   .section3 .s3-o .s3left {
-    width: 90%;
+    width: 100%;
   }
   .section3 .s3-o .s3rig {
-    width: 90%;
+    width: 100%;
   }
 }
 .section4 {

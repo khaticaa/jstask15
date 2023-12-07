@@ -66,6 +66,33 @@
   .banner {
     .banner-o {
       display: flex;
+      // flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .bleft {
+        width: 100%;
+        text-align: start;
+        
+        .btext{
+          // margin-top: 200px;
+          h2{
+            font-size: 40px;
+          }
+        }
+      }
+      .bright {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .banner {
+    .banner-o {
+      display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -73,8 +100,12 @@
       .bleft {
         width: 100%;
         text-align: start;
+        
         .btext{
-          margin-top: 200px;
+          margin-top: 100px;
+          h2{
+            font-size: 25px;
+          }
         }
       }
       .bright {
